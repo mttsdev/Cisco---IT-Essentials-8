@@ -1,2 +1,5 @@
-# Cisco---IT-Essentials-8
+# Cisco - IT Essentials 8
 Lições teóricas e práticas do curso da Cisco IT Essentials 8
+
+O que eu vi:
+
