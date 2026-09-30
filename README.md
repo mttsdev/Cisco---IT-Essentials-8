@@ -57,4 +57,6 @@ O gabinete de um computador desktop abriga os componentes internos, como fonte d
 * Torre compacta
 * Tudo-em-um
 
-  ##### 
+##### Caso horizontal
+
+este formato é orientado horizontalmente 
