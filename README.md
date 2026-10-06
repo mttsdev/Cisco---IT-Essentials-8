@@ -142,3 +142,20 @@ Um computador pode tolerar pequenas flutuações de energia, mas uma variação 
 ### 1.2.2 Placa-mãe
 
 #### 1.2.2.1 Placas-mãe
+
+A placa-mãe, também conhecida como placa de sistema ou placa principal, é a espinha dorsal do computador. Como mostra a figura, a placa-mãe é uma placa de circuito impresso (PCB) que contém barramentos — ou vias elétricas — que interconectam componentes eletrônicos. Esses componentes podem ser soldados diretamente à placa-mãe ou adicionados por meio de soquetes, slots de expansão e portas.
+
+#### 1.2.2.2 Componentes da placa-mãe
+
+Estas são algumas conexões na placa-mãe onde componentes de computador podem ser adicionados, conforme mostrado na figura de uma placa-mãe abaixo.
+
+[IMAGEM]
+
+As conexões indicadas na figura são as seguintes:
+
+* **Unidade Central de Processamento (CPU)** - Considerada o cérebro do computador.
+* **Memória de Acesso Aleatório (RAM)** - Este é um local temporário para armazenar dados e aplicativos.
+* **Slots de expansão** - Estes fornecem locais para conectar componentes adicionais.
+* **Chipset** - Consiste nos circuitos integrados da placa-mãe que controlam a interação do hardware do sistema com a CPU e a placa-mãe. Também define a quantidade de memória que pode ser adicionada à placa-mãe e o tipo de conectores presentes nela.
+* **O chip do Sistema Básico de Entrada/Saída (BIOS) e o chip da Interface Unificada de Firmware Extensível (UEFI) são componentes importantes**. O BIOS é utilizado para auxiliar na inicialização do computador e gerenciar o fluxo de dados entre o disco rígido, a placa de vídeo, o teclado, o mouse e outros componentes. Nos computadores modernos, o BIOS foi substituído pelo UEFI. O UEFI especifica um firmware diferente para inicialização e serviços de tempo de execução. Firmware é um programa que permite ao sistema operacional do computador controlar o hardware.
+
