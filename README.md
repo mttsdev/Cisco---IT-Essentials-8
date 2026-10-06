@@ -138,3 +138,7 @@ Os diferentes conectores também fornecem diferentes voltagens. As voltagens mai
 As fontes de alimentação também podem ser de trilho único, trilho duplo ou trilho múltiplo. Um trilho é a placa de circuito impresso (PCI) dentro da fonte de alimentação à qual os cabos externos são conectados. Um trilho único tem todos os conectores conectados à mesma PCI, enquanto uma PCI de trilho múltiplo possui PCIs separadas para cada conector.
 
 Um computador pode tolerar pequenas flutuações de energia, mas uma variação significativa pode causar a falha da fonte de alimentação.
+
+### 1.2.2 Placa-mãe
+
+#### 1.2.2.1 Placas-mãe
