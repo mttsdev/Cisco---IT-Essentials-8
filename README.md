@@ -159,3 +159,26 @@ As conexões indicadas na figura são as seguintes:
 * **Chipset** - Consiste nos circuitos integrados da placa-mãe que controlam a interação do hardware do sistema com a CPU e a placa-mãe. Também define a quantidade de memória que pode ser adicionada à placa-mãe e o tipo de conectores presentes nela.
 * **O chip do Sistema Básico de Entrada/Saída (BIOS) e o chip da Interface Unificada de Firmware Extensível (UEFI) são componentes importantes**. O BIOS é utilizado para auxiliar na inicialização do computador e gerenciar o fluxo de dados entre o disco rígido, a placa de vídeo, o teclado, o mouse e outros componentes. Nos computadores modernos, o BIOS foi substituído pelo UEFI. O UEFI especifica um firmware diferente para inicialização e serviços de tempo de execução. Firmware é um programa que permite ao sistema operacional do computador controlar o hardware.
 
+Segue alguns conectores adicionais:
+
+* SATA: SATA, ou Serial Advanced Technology Attachment (ATA), é uma interface de unidade de disco usada para conectar unidades ópticas, discos rígidos e unidades de estado sólido à placa-mãe. O SATA suporta troca a quente, que é a capacidade de substituir dispositivos sem desligar o computador.
+
+* **IDE**: Integrated Drive Electronics (IDE) é um padrão de interface mais antigo para conectar unidades de disco à placa-mãe. O IDE utiliza um conector de 40 pinos. Cada interface IDE suporta, no máximo, dois dispositivos.
+
+* **Internal USB**: Um conector de 19 pinos é utilizado para conectar as portas USB 3 externas do gabinete do computador à placa-mãe. Os conectores USB 1.1 e USB 2 possuem 9 pinos.
+
+#### 1.2.2.3 Chipset da placa-mãe
+
+##### Conexões de Componentes da Placa-Mãe
+A figura ilustra como uma placa-mãe conecta diversos componentes.
+
+A maioria dos chipsets é composta pelos dois tipos a seguir:
+
+**Northbridge** – Controla o acesso de alta velocidade à memória RAM e à placa de vídeo. Também controla a velocidade com que a CPU se comunica com todos os outros componentes do computador. A capacidade de vídeo é, às vezes, integrada à Northbridge.
+
+**Southbridge** – Permite que a CPU se comunique com dispositivos de velocidade mais baixa, incluindo discos rígidos, portas USB (Universal Serial Bus) e slots de expansão.
+
+[IMAGEM]
+
+##### 1.2.2.4 Formatos de Placa-Mãe
+
