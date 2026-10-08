@@ -804,3 +804,90 @@ Existem 5 tipos de DVI disponíveis para saída digital e analógica, além de s
 Atualmente, existem dois tipos principais de conectores DVI, DVI-I e DVI-D. O DVI-D fornece um sinal apenas digital, enquanto o DVI-I pode suportar sinais digitais e analógicos. O DVI está desaparecendo tão rápido quanto apareceu. Ainda aparece em alguns monitores junto com o VGA, que finalmente está começando a desaparecer em favor do HDMI.
 
 #### 1.2.10.2 Outras Portas e Cabos
+
+##### Input/output (I/O)
+
+As portas de entrada/saída (I/O) de um computador conectam dispositivos periféricos, como impressoras, scanners e drives portáteis. Além das portas e interfaces discutidas anteriormente, um computador também pode ter outras portas.
+
+[IMAGEM]
+
+##### PS/2
+
+Uma porta PS/2 conecta um teclado ou um mouse a um computador. A porta PS/2 é um conector fêmea mini-DIN de 6 pinos. Os conectores do teclado e do mouse geralmente têm cores diferentes. Se as portas não forem coloridas, procure por uma pequena figura de mouse ou teclado ao lado de cada porta.
+
+[IMAGEM]
+
+##### Portas de áudio
+
+As portas de áudio conectam dispositivos de áudio ao computador. As portas analógicas normalmente incluem uma entrada de linha para conectar a uma fonte externa (por exemplo, sistema de som), uma porta para microfone e portas de saída de linha para conectar alto-falantes ou fones de ouvido. A porta de jogos conecta-se a um joystick ou dispositivo com interface MIDI.
+
+[IMAGEM]
+
+##### Porta de Rede
+
+Uma porta de rede, também conhecida como RJ-45 ou porta 8P8C, tem 8 pinos e conecta dispositivos a uma rede. A velocidade da conexão depende do tipo de porta de rede. O comprimento máximo do cabo de rede Ethernet é de 100 m (328 pés).
+
+[IMAGEM]
+
+##### Cabo SATA
+
+O cabo SATA conecta dispositivos SATA à interface SATA usando um cabo de dados de 7 pinos. Os conectores SATA têm uma ranhura em forma de L, então o cabo só se encaixa de uma forma. Esse cabo não fornece energia ao dispositivo SATA. Um cabo de energia separado fornece energia ao disco.
+
+[IMAGEM]
+
+##### Cabo IDE
+
+O cabo IDE é um cabo flat usado para conectar unidades de armazenamento dentro do computador. Os dois tipos mais comuns de cabos flat IDE são o cabo de 34 pinos, usado para drives de disquete, e o cabo de 40 pinos, para discos rígidos e drives ópticos.
+
+[IMAGEM]
+
+##### USB
+
+USB is a standard interface that connects peripheral devices to a computer. USB devices are hot-swappable, which means that users can connect and disconnect the devices while the computer is powered on.
+
+[IMAGEM]
+
+#### 1.2.10.3 Adaptadores e Conversores
+
+[IMAGEM]
+
+Existem muitos padrões de conexão em uso atualmente. Muitos são interoperáveis, mas exigem componentes especializados. Esses componentes são chamados de adaptadores e conversores:
+
+* **Adaptador** – Este é um componente que conecta fisicamente uma tecnologia à outra. Por exemplo, um adaptador de DVI para HDMI. O adaptador pode ser um componente ou um cabo com extremidades diferentes.
+* **Conversor** – Este desempenha a mesma função de um adaptador, mas também traduz os sinais de uma tecnologia para outra. Por exemplo, um conversor USB 3.0 para SATA permite que um disco rígido seja usado como pen drive.
+
+#####
+
+Este adaptador é usado para conectar um cabo VGA a uma porta DVI.
+
+[IMAGEM]
+
+#####
+
+Este conversor é usado para converter USB em Ethernet.
+
+[IMAGEM]
+
+#####
+
+Este adaptador é usado para conectar um teclado ou mouse USB a uma porta PS/2.
+
+[IMAGEM]
+
+#####
+
+Este adaptador é usado para conectar um cabo HDMI a uma porta DVI.
+
+[IMAGEM]
+
+#####
+
+Isso é usado para conectar um disco SATA a um cabo de energia Molex.
+
+[IMAGEM]
+
+#####
+
+Este conversor é usado para converter sinais VGA em sinais HDMI.
+
+[IMAGEM]
