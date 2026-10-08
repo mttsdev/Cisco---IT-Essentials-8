@@ -555,7 +555,7 @@ Cada versão do PCIe é compatível com todas as outras versões, por exemplo, s
 
 O PCIe pode fornecer até 25 watts de energia para cada slot. Para uma placa de vídeo, ela pode fornecer até 75 watts. Para placas de vídeo muito potentes, 75 watts adicionais podem ser fornecidos por um conector de energia PCIe da fonte de alimentação.
 
-###1.2.8 Discos rígidos e SSDs
+### 1.2.8 Discos rígidos e SSDs
 
 #### 1.2.8.1 Tipos de dispositivos de armazenamento
 
