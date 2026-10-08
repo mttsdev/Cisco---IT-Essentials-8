@@ -180,5 +180,67 @@ A maioria dos chipsets é composta pelos dois tipos a seguir:
 
 [IMAGEM]
 
-##### 1.2.2.4 Formatos de Placa-Mãe
+#### 1.2.2.4 Formatos de Placa-Mãe
 
+* **Advanced Technology eXtended (ATX)** - Este é o formato mais comum da placa-mãe. O gabinete ATX acomoda as portas de I/O integradas na placa-mãe padrão ATX. A fonte de alimentação ATX conecta-se à placa-mãe por meio de um único conector de 20 pinos.
+
+
+* **Micro-ATX** - Este é um formato menor, projetado para ser compatível com o ATX. Placas Micro-ATX frequentemente usam os mesmos chipsets e conectores de energia Northbridge e Southbridge como placas ATX de tamanho completo e, portanto, podem usar muitos dos mesmos componentes. Geralmente, placas Micro-ATX podem caber em gabinetes ATX padrão. No entanto, placas-mãe Micro-ATX são muito menores que as ATX e têm menos slots de expansão.
+
+
+* **ITX** - O formato ITX ganhou popularidade devido ao seu tamanho muito pequeno. Existem muitos tipos de placas-mãe ITX; no entanto, o Mini-ITX é um dos mais populares. O formato Mini-ITX consomem muito pouca energia, então não são necessários ventiladores para mantê-lo frio. Uma placa-mãe Mini-ITX possui apenas um slot PCI para placas de expansão. Um computador baseado em um fator de forma Mini-ITX pode ser usado em locais onde é inconveniente ter um computador grande ou barulhento.
+
+
+
+A tabela destaca essas e outras variações de fator de forma.
+
+**Nota:** É importante distinguir entre os fatores de forma. A escolha do formato da placa-mãe determina como os componentes individuais se conectam a ela, o tipo de fonte de alimentação necessária e o formato do gabinete do computador. Alguns fabricantes também possuem formatos proprietários baseados no design ATX. Isso faz com que algumas placas-mãe, fontes de alimentação e outros componentes sejam incompatíveis com os gabinetes ATX padrão.
+
+<table>
+  <thead>
+    <tr>
+      <th>Formato</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>ATX</strong></td>
+      <td>
+        <ul>
+          <li>Tecnologia avançada eXtended</li>
+          <li>Fator de forma mais popular</li>
+          <li>12 pol X 9,6 pol (30,5 cm x 24,4 cm)</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Micro-ATX</strong></td>
+      <td>
+        <ul>
+          <li>Área de contenção menor que o ATX</li>
+          <li>Popular em computadores desktop e de pequeno formato</li>
+          <li>9,6 pol X 9,6 pol (24,4 cm X 24,4 cm)</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Mini-ITX</strong></td>
+      <td>
+        <ul>
+          <li>Projetado para dispositivos pequenos, como thin clients</li>
+          <li>6,7 pol x 6,7 pol (17 cm x 17 cm)</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>ITX</strong></td>
+      <td>
+        <ul>
+          <li>Fator de forma comparável ao Micro-ATX</li>
+          <li>8,5 pol x 7,5 pol (21,5 cm x 19,1 cm)</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
