@@ -559,6 +559,8 @@ O PCIe pode fornecer até 25 watts de energia para cada slot. Para uma placa de 
 
 #### 1.2.8.1 Tipos de dispositivos de armazenamento
 
+Diversos tipos diferentes de dispositivos estão disponíveis para armazenamento de dados em um PC, como mostrado na figura. Os drives de dados fornecem armazenamento não volátil de dados, ou seja, quando o drive perde energia, os dados ficam retidos e disponíveis na próxima vez que for ligado. Alguns drives têm mídia fixa, e outros têm mídia removível. Alguns oferecem a capacidade de ler e gravar dados, enquanto outros permitem apenas acessos aos dados, mas não escritos. Dispositivos de armazenamento de dados podem ser classificados de acordo com o meio em que os dados são armazenados; magnéticos como HDD e unidades de fita, de estado sólido ou ópticos.
+
 ##### Disco rígido (HD)
 
 [IMAGEM]
@@ -577,3 +579,228 @@ O PCIe pode fornecer até 25 watts de energia para cada slot. Para uma placa de 
 
 #### 1.2.8.2 Interfaces de Dispositivos de Armazenamento
 
+Aqui está o texto extraído da imagem:
+
+Dispositivos de armazenamento interno frequentemente se conectam à placa-mãe usando conexões Serial AT Attachment (SATA). Os padrões SATA definem a forma como os dados são transferidos, as taxas de transferência e as características físicas dos cabos e conectores.
+
+Existem três versões principais do padrão SATA: SATA 1, SATA 2 e SATA 3, conforme mostrado na figura. Os cabos e conectores são os mesmos, mas as velocidades de transferência de dados são diferentes. O SATA 1 permite uma taxa máxima de transferência de dados de 1,5 Gb/s, enquanto o SATA 2 pode chegar a até 3 Gb/s. O SATA 3 é o mais rápido, com velocidades de até 6 Gb/s.
+
+**Nota:** Métodos legados de conexão interna de drive incluem os padrões Parallel ATA conhecidos como Integrated Drive Electronics (IDE) e Enhanced Integrated Drive Electronics (EIDE).
+
+A Interface de Sistema de Computador Pequeno (SCSI) é outra interface entre placas-mãe e dispositivos de armazenamento de dados. É um padrão mais antigo que originalmente usava transferências de dados paralelas, em vez de seriais. Uma nova versão do SCSI conhecida como Serially Attached SCSI (SAS) foi desenvolvida. SAS é uma interface popular usada para armazenamento de servidores.
+
+##### Interfaces de Dispositivo de Armazenamento
+
+<table>
+    <tbody>
+        <tr>
+            <td rowspan="5">ATA</td>
+            <td rowspan="2">Paralelo (PATA)</td>
+            <td>IDE</td>
+            <td>8,3 Mb/s</td>
+        </tr>
+        <tr>
+            <td>EIDE</td>
+            <td>16,6 Mb/s</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Serial (SATA)</td>
+            <td>SATA 1</td>
+            <td>1,5 Gb/s</td>
+        </tr>
+        <tr>
+            <td>SATA 2</td>
+            <td>3,0 Gb/s</td>
+        </tr>
+        <tr>
+            <td>SATA 3</td>
+            <td>6,0 Gb/s</td>
+        </tr>
+    </tbody>
+</table>
+
+#### 1.2.8.3 Armazenamento de Mídia Magnética
+
+##### Disco rígido (HDD)
+
+HDDs são os dispositivos tradicionais de disco magnético que têm sido usados há anos. Sua capacidade de armazenamento varia de gigabytes (GBs) a terabytes (TBs). Sua velocidade é medida em rotações por minuto (RPM). Isso indica a velocidade com que o fuso gira os pratos que armazenam os dados. Quanto maior a velocidade do fuso, mais rápido um disco rígido pode encontrar dados nos pratos. Isso pode corresponder a velocidades de transferência mais rápidas. Velocidades comuns de spindle de disco rígido incluem 5400, 7200, 10.000 e 15.000 RPM. HDDs vêm nos formatos de 1,8, 2,5 e 3,5 polegadas, conforme mostrado na Figura 1. O formato de 3,5 polegadas é padrão para computadores pessoais. HDDs de 2,5 polegadas são tipicamente usados em dispositivos móveis. HDDs de 1,8 polegada eram usados em players de mídia portáteis e outros aplicativos móveis, mas raramente são usados em dispositivos novos.
+
+**Fatores de forma HDD**
+
+[IAMGEM]
+
+##### Unidade de Fita
+
+Fitas magnéticas são mais frequentemente usadas para arquivar dados. Em certo momento, elas eram úteis para fazer backup de PCs, mas à medida que os HDs ficaram mais baratos, os drives externos de HD agora são frequentemente usados para esse propósito. No entanto, os backups em fita ainda são usados em redes corporativas. Os drives de fita usam uma cabeça magnética de leitura/gravação e um cartucho de fita removível, como mostrado na Figura 2. Embora a recuperação de dados usando um drive de fita possa ser rápida, localizar dados específicos é lento porque a fita precisa ser desenrolada em um carretel até que os dados sejam encontrados. As capacidades comuns de armazenamento em fita variam de alguns GBs a muitos TBs.
+
+#### 1.2.8.4 Armazenamento de semicondutores
+
+Unidades de estado sólido (SSD) armazenam dados como cargas elétricas em memória flash semicondutora. Isso torna os SSDs muito mais rápidos que os HDDs magnéticos. A capacidade de armazenamento dos SSD varia de cerca de 120 GB a muitos TBs. SSDs não possuem partes móveis, não fazem barulho, são mais eficientes em energia e produzem menos calor do que HDDs. Como os SSDs não possuem partes móveis que possam falhar, são considerados mais confiáveis do que HDDs.
+
+SSDs vêm em três formatos de formato:
+
+* **Formato de drive de disco** – São semelhantes a um HDD, no qual a memória semicondutora está em um encapsulamento fechado que pode ser montado em gabinetes de computador, como um HDD. Podem medir 2,5, 3,5 e 1,8 polegadas, embora sejam raros.
+* **Placas de expansão** – Elas são conectadas diretamente à placa-mãe e montadas no gabinete do computador como outras placas de expansão.
+* **Módulos mSata ou M.2** – Esses pacotes podem usar um soquete especial. M.2 é um padrão para placas de expansão de computador. É uma família de padrões que especificam aspectos físicos das placas de expansão, como conectores e dimensões.
+
+Veja como são os SSDs:
+
+##### Unidade SSD 2.5
+
+[IMAGEM]
+
+##### Unidade SSD M.2
+
+[IMAGEM]
+
+##### Placa Adaptadora SSD
+
+[IMAGEM]
+
+A figura a seguir mostra os formatos de 2,5 polegadas e M.2 em comparação com um HDD magnético de 3,5 polegadas.
+
+[IMAGEM]
+
+A especificação Non-Volatile Memory Express (NVMe) foi desenvolvida especificamente para permitir que computadores aproveitassem melhor os recursos dos SSDs, fornecendo uma interface padrão entre SSDs, o barramento PCIe e sistemas operacionais. O NVMe permite que drives SSD compatíveis conectem ao barramento PCIe sem precisar de drivers especiais, de forma semelhante a como drives USB podem ser usados em vários computadores sem precisar de instalação em cada um.
+
+Por fim, os Drives Híbridos de Estado Sólido (SSHDs) são um compromisso entre um HDD magnético e um SSD. Eles são mais rápidos que um HDD, mas menos caros que um SSD. Eles combinam um HDD magnético com memória flash interna que funciona como cache não volátil. O drive SSHD armazena automaticamente em cache dados que são acessados com frequência, o que pode acelerar certas operações, como a inicialização do sistema operacional.
+
+### 1.2.9 Dispositivos de Armazenamento Óptico
+
+#### 1.2.9.1 Tipos de dispositivos de armazenamento óptico
+
+Unidades ópticas são um tipo de dispositivo de armazenamento de mídia removível que utiliza lasers para ler e gravar dados em mídias ópticas. Eles foram desenvolvidos para superar as limitações de capacidade de armazenamento de mídias magnéticas removíveis, como disquetes e cartuchos magnéticos. A figura mostra um drive óptico interno.
+
+[IMAGEM]
+
+Aqui está o texto extraído da imagem:
+
+# Tipos de Mídia Óptica
+
+Existem três tipos de drives ópticos:
+
+* **Compact Disc (CD)** - áudio e dados
+* **Disco Digital Versátil (DVD)** - vídeo digital e dados
+* **Blu-ray Disc (BD)** - Vídeo digital HD e dados
+
+Mídias de CD, DVD e BD podem ser pré-gravadas (somente leitura), graváveis (gravar uma vez) ou regravadas (ler e gravar várias vezes). Mídias de DVD e BD também podem ser de camada única (SL) ou de camada dupla (DL). Mídia de dupla camada aproximadamente dobra a capacidade de um disco único.
+
+A tabela descreve os vários tipos de mídia óptica e suas capacidades aproximadas de armazenamento:
+
+<table>
+    <thead>
+        <tr>
+            <th>Mídia Óptica</th>
+            <th>Descrição</th>
+            <th>Capacidade de Armazenamento</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- CD -->
+        <tr>
+            <td>CD-ROM</td>
+            <td>Mídia de memória somente leitura de CD pré-gravada</td>
+            <td rowspan="3">700 MB</td>
+        </tr>
+        <tr>
+            <td>CD-R</td>
+            <td>Mídia gravável em CD que pode ser gravada uma única vez</td>
+        </tr>
+        <tr>
+            <td>CD-RW</td>
+            <td>mídia regravável em CD que pode ser gravada, apagada e regravada</td>
+        </tr>
+        <tr>
+            <td>DVD-ROM</td>
+            <td>Mídia de memória somente leitura em DVD pré-gravada</td>
+            <td rowspan="4">4,7 GB (camada única)<br>8,5 GB (Camada Dupla)</td>
+        </tr>
+        <tr>
+            <td>DVD-RAM</td>
+            <td>mídia regravável em DVD que pode ser gravada, apagada e regravada</td>
+        </tr>
+        <tr>
+            <td>DVD+/-R</td>
+            <td>Mídia gravável em DVD que pode ser gravada uma única vez</td>
+        </tr>
+        <tr>
+            <td>DVD+/-RW</td>
+            <td>mídia regravável em DVD que pode ser gravada, apagada e regravada</td>
+        </tr>
+        <!-- BD -->
+        <tr>
+        <tr>
+            <td>BD-ROM</td>
+            <td>Mídia somente de leitura em Blu-ray pré-gravada com filmes, jogos ou softwares</td>
+            <td rowspan="3">25 GB (camada única)<br>50 GB (Camada Dupla)</td>
+        </tr>
+        <tr>
+            <td>BD-R</td>
+            <td>Mídia gravável em Blu-ray que pode ser gravada uma única vez</td>
+        </tr>
+        <tr>
+            <td>BD-RE</td>
+            <td>Mídia regravável em Blu-ray que pode ser gravada, apagada e regravada</td>
+        </tr>
+    </tbody>
+</table>
+
+### 1.2.10 Portas, Cabos e Adaptadores
+
+#### 1.2.10.1 Portas de Vídeo e Cabos
+
+Veja a seguir os diferentes tipos de portas de vídeo e cabos:
+
+##### Portas de vídeo e cabos
+
+Uma porta de vídeo conecta um cabo de monitor a um computador. Portas de vídeo e cabos de monitor transferem sinais analógicos, digitais ou ambos. Computadores são dispositivos digitais que geram sinais digitais. Os sinais digitais são enviados para a placa de vídeo, onde são transmitidos por um cabo até um display.
+
+##### DVI 
+
+O conector DVI geralmente é branco e consiste em até 24 pinos (três fileiras de oito pinos) para sinais digitais, até 4 pinos para sinais analógicos, e um pino plano chamado barra de terra.
+
+[IMAGEM]
+
+##### DisplayPort
+
+O DisplayPort é uma tecnologia de interface projetada para conectar PCs com capacidade gráfica avançada e monitores, bem como equipamentos de home theater e telas.
+
+[IMAGEM]
+
+##### HDMI
+
+O HDMI foi desenvolvido especificamente para televisores de alta definição. No entanto, seus recursos digitais também o tornam um bom candidato para computadores.
+
+[IMAGEM]
+
+##### Thunderbolt
+
+O Thunderbolt permite a conexão de alta velocidade de periféricos como discos rígidos, arrays RAID, interfaces de rede, e ele pode transmitir vídeo em alta definição usando o protocolo DisplayPort.
+
+[IMAGEM]
+
+##### Thunderbolt 3
+
+O Thunderbolt 3 usa o mesmo conector que o USB-C. Ele tem o dobro da largura de banda do Thunderbolt 2, consome menos energia e pode fornecer vídeo para dois monitores 4K.
+
+[IMAGEM]
+
+##### DE-15
+
+Este é um conector para vídeo analógico. Ele tem 3 fileiras e 15 pinos. Às vezes, também é chamado de conector DE-15 ou HD-15.
+
+[IMAGEM]
+
+##### RCA
+
+Os conectores RCA têm um plugue central com um anel ao redor e são usados para transmitir áudio ou vídeo. Os conectores RCA costumam aparecer em grupos de três, onde um conector amarelo transmite o vídeo e um par de conectores vermelho e branco transmite os canais de áudio esquerdo e direito.
+
+[IMAGEM]
+
+##### Mais sobre DVI
+
+Existem 5 tipos de DVI disponíveis para saída digital e analógica, além de single link e dual link, que oferecem largura de banda extra. DVI-D suporta apenas dispositivos e saídas digitais. DVI-A só suporta saída analógica. DVI-I suporta saídas digitais e dispositivos analógicos.
+
+Atualmente, existem dois tipos principais de conectores DVI, DVI-I e DVI-D. O DVI-D fornece um sinal apenas digital, enquanto o DVI-I pode suportar sinais digitais e analógicos. O DVI está desaparecendo tão rápido quanto apareceu. Ainda aparece em alguns monitores junto com o VGA, que finalmente está começando a desaparecer em favor do HDMI.
+
+#### 1.2.10.2 Outras Portas e Cabos
