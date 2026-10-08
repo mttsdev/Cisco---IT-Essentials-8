@@ -244,3 +244,134 @@ A tabela destaca essas e outras variações de fator de forma.
     </tr>
   </tbody>
 </table>
+
+
+### 1.2.3 CPUs e Sistemas de Resfriamento
+##### 1.2.3.1 O que é uma CPU?
+
+A unidade central de processamento (CPU) é responsável por interpretar e executar comandos. Ele gerencia instruções de outros hardwares do computador, como teclado, e software. A CPU interpreta as instruções e envia as informações para o monitor ou realiza as tarefas solicitadas.
+
+A CPU é um pequeno microchip que reside dentro de um pacote de CPU. O pacote CPU é frequentemente chamado de CPU. Os pacotes de CPU vêm em diferentes formatos, cada estilo exigindo um soquete específico na placa-mãe. Fabricantes comuns de CPUs incluem Intel e AMD.
+
+O soquete da CPU é a conexão entre a placa-mãe e o processador. Soquetes modernos de CPU e pacotes de processadores são construídos em torno das seguintes arquiteturas:
+
+##### Matriz de Pinos (PGA)
+
+Na arquitetura PGA , os pinos ficam na parte inferior do encapsulamento do processador e são inseridos no soquete da CPU da placa-mãe usando força de inserção zero (ZIF). ZIF refere-se à quantidade de força necessária para instalar uma CPU no soquete ou slot da placa-mãe.
+
+##### Matriz de Grade de Terra (LGA)
+
+Em uma arquitetura LGA (mostrada abaixo), os pinos estão no soquete em vez de no processador.
+
+#### 1.2.3.2 Sistemas de Resfriamento
+O fluxo de corrente entre componentes eletrônicos gera calor. Componentes do computador têm melhor desempenho quando mantidos frios. Se o calor não for removido, o computador pode funcionar mais devagar. Se acumular muito calor, o computador pode travar ou componentes podem ser danificados. Portanto, é fundamental manter os computadores frescos.
+
+Os computadores são mantidos frescos usando soluções de resfriamento ativas e passivas. Soluções ativas requerem energia, enquanto soluções passivas não. Soluções passivas para resfriamento geralmente envolvem reduzir a velocidade de operação de um componente ou adicionar dissipadores de calor aos chips de computador. Um ventilador de gabinete é considerado resfriamento ativo. A figura mostra exemplos de soluções de resfriamento passivas e ativas.
+
+### 1.2.5 Memória
+
+#### 1.2.5.1 Tipos de Memória
+
+Um computador pode usar diferentes tipos de chips de memória, como mostrado na figura. No entanto, todos os chips de memória armazenam dados na forma de bytes. Um byte é um agrupamento de informações digitais e representa informações como letras, números e símbolos. Especificamente, um byte é um bloco de oito bits armazenado como 0 ou 1 no chip de memória.
+
+Memória Somente de Leitura
+
+Um chip de computador essencial é o chip de memória somente leitura (ROM). Chips ROM estão localizados na placa-mãe e em outras placas de circuito e contêm instruções que podem ser acessadas diretamente por uma CPU. As instruções armazenadas na ROM incluem instruções básicas de operação, como inicializar o computador e carregar o sistema operacional.
+
+A ROM é não volátil, o que significa que o conteúdo não é apagado quando o computador é desligado.
+
+Memória de Acesso Aleatório
+
+A RAM é o armazenamento temporário de trabalho para dados e programas que estão sendo acessados pela CPU. Ao contrário da ROM, a RAM é memória volátil, o que significa que o conteúdo é apagado toda vez que o computador é desligado.
+
+Adicionar mais RAM em um computador melhora o desempenho do sistema. Por exemplo, mais RAM aumenta a capacidade de memória do computador para armazenar e processar programas e arquivos. Com menos RAM, um computador precisa trocar dados entre a RAM e o disco rígido, que é muito mais lento. A quantidade máxima de RAM que pode ser instalada é limitada pela placa-mãe.
+
+#### 1.2.5.2 Tipos de ROM
+
+##### ROM
+
+Chips de memória somente leitura. As informações são gravadas em um chip ROM no momento de sua fabricação. Um chip ROM que não pode ser apagado ou regravado está atualmente obsoleto. O termo ROM ainda tende a ser usado de forma genérica para qualquer tipo de chip de memória somente leitura.
+
+##### PROM
+
+As informações em um chip de memória somente leitura programável são gravadas após a sua fabricação. As PROMs são fabricadas em branco e podem ser programadas por um programador de PROM quando necessário. Geralmente, esses chips não podem ser apagados e só podem ser programados uma única vez.
+
+##### EPROM
+
+A memória somente de leitura programável e apagável (EPROM) é não volátil, mas pode ser apagada pela exposição a luz ultravioleta intensa. As EPROMs geralmente possuem uma janela de quartzo transparente na parte superior do chip. O apagamento e a reprogramação constantes podem, por fim, tornar o chip inutilizável.
+
+##### EEPROM
+
+As informações são gravadas em um chip de memória somente leitura programável e eletricamente apagável (EEPROM) após sua fabricação e sem a necessidade de removê-lo do dispositivo. Os chips EEPROM também são chamados de Flash ROMs, uma vez que seu conteúdo pode ser apagado por meio de um processo de "flash". As EEPROMs são frequentemente utilizadas para armazenar o BIOS de sistemas de computador.
+
+#### 1.2.5.3 Tipos de RAM
+
+##### RAM dinâmica 
+
+Tecnologia mais antiga, popular até meados da década de 1990
+Usado para memória principal
+A DRAM descarrega energia gradualmente, então ela precisa ser constantemente atualizada com pulsos de eletricidade para manter os dados armazenados no chip
+
+##### RAM estática 
+
+Requer potência constante para funcionar
+Frequentemente usado para memória cache
+Usa menor consumo de energia
+Muito mais rápido que a DRAM
+Mais caro que DRAM
+
+##### SDRAM
+
+DRAM que opera em sincronização com o barramento de memória
+Capaz de processar instruções sobrepostas em paralelo – por exemplo, pode processar uma leitura antes que a escrita seja concluída
+Taxas de transferência mais altas
+
+##### RAM Dinâmica Síncrona de Taxa de Dados Dupla
+
+DDR SDRAM transfere dados duas vezes mais rápido que SDRAM
+Capaz de suportar duas gravações e duas leituras por ciclo de clock da CPU
+O conector tem 184 pinos e um único entalhe
+Utiliza tensão padrão mais baixa (2,5 V)
+Família: DDR2, DDR3, DDR4
+
+##### RAM Dinâmica Síncrona DDR2
+
+A DDR2 SDRAM também transfere dados duas vezes mais rápido que a SDRAM
+Funciona em velocidades de clock maiores que a DDR (553 MHz vs. DDR a 200 MHz)
+Melhora o desempenho ao diminuir o ruído e a diafonia entre os fios de sinal
+O conector tem 240 pinos
+Utiliza tensão padrão mais baixa (1,8 V)
+
+##### RAM Dinâmica Síncrona DDR3
+
+A DDR3 SDRAM expande a largura de banda da memória ao dobrar a frequência de clock da DDR2
+Consome menos energia que o DDR2 (1,5 V)
+Gera menos calor
+Funciona em velocidades de clock mais altas (até 800 MHz)
+O conector tem 240 pinos
+
+##### RAM Dinâmica Síncrona DDR4
+
+A DDR4 SDRAM quadruplica a capacidade máxima de armazenamento da DDR3
+Consome menos energia que o DDR3 (1,2 V)
+Funciona em velocidades de clock mais altas (até 1600 MHz)
+O conector tem 288 pinos
+Disponível com recursos avançados de correção de erros, como memória de código corrigida de erros (memória ECC) para detectar múltiplos erros de bits.
+
+##### RAM Dinâmica Síncrona GDDR
+
+O "G" significa Gráficos
+RAM projetada especificamente para gráficos de vídeo
+Usado em conjunto com uma GPU dedicada
+Família: GDDR, GDDR2, GDDR3, GDDR4, GDDR5
+Cada membro da família melhora o desempenho
+Cada membro da família reduz o consumo de energia
+GDDR SDRAM processa grandes quantidades de dados, mas não necessariamente nas velocidades mais rápidas
+
+##### DDR5
+
+Mais que o dobro da velocidade dos módulos DDR4 mais rápidos.
+DDR5 quadruplica a capacidade máxima de armazenamento do DDR4
+Consumo de energia ligeiramente menor que o DDR4 (1,1 V)
+O conector tem 288 pinos, mas um padrão diferente do DDR4, então eles não são compatíveis
+O tamanho máximo do módulo é de 128 GB
