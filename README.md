@@ -268,6 +268,8 @@ O fluxo de corrente entre componentes eletrônicos gera calor. Componentes do co
 
 Os computadores são mantidos frescos usando soluções de resfriamento ativas e passivas. Soluções ativas requerem energia, enquanto soluções passivas não. Soluções passivas para resfriamento geralmente envolvem reduzir a velocidade de operação de um componente ou adicionar dissipadores de calor aos chips de computador. Um ventilador de gabinete é considerado resfriamento ativo. A figura mostra exemplos de soluções de resfriamento passivas e ativas.
 
+### 1.2.4 
+
 ### 1.2.5 Memória
 
 #### 1.2.5.1 Tipos de Memória
@@ -375,3 +377,203 @@ DDR5 quadruplica a capacidade máxima de armazenamento do DDR4
 Consumo de energia ligeiramente menor que o DDR4 (1,1 V)
 O conector tem 288 pinos, mas um padrão diferente do DDR4, então eles não são compatíveis
 O tamanho máximo do módulo é de 128 GB
+
+#### 1.2.5.4 Módulos de Memória
+
+Os primeiros computadores tinham RAM instalada na placa-mãe como chips individuais. Os chips de memória individuais, chamados chips de pacote duplo em linha (DIP), eram difíceis de instalar e frequentemente ficavam soltos. Para resolver esse problema, os projetistas soldaram os chips de memória a uma placa de circuito para criar um módulo de memória que seria então colocado em um slot de memória na placa-mãe. Veja a seguir os tipos de módulos de memória:
+
+#####  DIP
+
+Dual Inline Package é um chip de memória individual. Um DIP tem fileiras duplas de pinos usados para conectá-lo à placa-mãe.
+
+##### SIMM
+
+Single Inline Memory Module é uma pequena placa de circuito que contém vários chips de memória. Os SIMMs têm configurações de 30 pinos ou 72 pinos.
+
+##### DIMM Memory
+
+Dual Inline Memory Module é uma placa de circuito que contém chips SDRAM, DDR SDRAM, DDR2 SDRAM, DDR3 SDRAM e DDR4 SDRAM. Existem DIMMs SDRAM de 168 pinos, DIMMs DDR de 184 pinos, DIMMs DDR2 e DDR3 de 240 pinos e DIMMs DDR4 de 288 pinos.
+
+##### SODIMM
+
+Small Outline DIMM possui configurações de 72 pinos e 100 pinos para suportar transferências de 32 bits ou configurações de 144 pinos, 200 pinos, 204 pinos e 260 pinos para suportar transferências de 64 bits. Esta versão menor e mais compacta do DIMM fornece armazenamento de dados de acesso aleatório, ideal para uso em laptops, impressoras e outros dispositivos onde economizar espaço é desejável.
+
+---
+
+##### 1.2.5.5 Lado Único, Lado Duplo e Multicanal
+
+Módulos de memória podem ser de um lado ou de dois lados. Módulos de memória de um lado único contêm RAM em apenas um lado do módulo. Módulos de memória dupla face contêm RAM em ambos os lados.
+
+A velocidade da memória tem impacto direto em quanto de dados um processador pode processar em um determinado período de tempo. À medida que a velocidade do processador aumenta, a velocidade da memória também deve aumentar. O throughput de memória também foi aumentado por meio da tecnologia multicanal. A RAM padrão é de canal único, o que significa que todos os slots de RAM são endereçados ao mesmo tempo. A RAM de canal duplo adiciona um segundo canal para poder acessar um segundo módulo ao mesmo tempo.
+
+A tecnologia de triplo canal oferece outro canal para que três módulos possam ser acessados ao mesmo tempo. O canal quádruplo adiciona outro canal ao controlador de memória para uma largura de banda ainda maior. Para usar controladores de memória triplo e quádruplo para a maior largura de banda, a arquitetura do chipset deve suportá-los e só poderá usar o número limitado de canais que tenham slots de memória preenchidos. Em muitos casos, os slots de memória só podem ser preenchidos em uma certa ordem para garantir que todos os canais de memória sejam usados.
+
+#### 1.2.5.6 Memória de Cache
+
+A memória mais rápida é tipicamente a RAM estática (SRAM), que é memória cache para armazenar os dados e instruções mais recentemente usados pela CPU. A SRAM oferece ao processador acesso mais rápido aos dados do que ao recuperá-los da RAM dinâmica (DRAM) mais lenta, ou da memória principal. Veja a seguir os tipos de memória:
+
+##### L1
+
+O cache L1 é cache interno e está integrado à CPU. Uma CPU pode ter vários modelos, cada um com uma quantidade diferente de cache L1.
+
+##### L2
+
+O cache L2 é um cache externo e originalmente era montado na placa-mãe perto da CPU. Atualmente, o cache L2 está integrado na CPU.
+
+##### L3
+
+O cache L3 é usado em algumas estações de trabalho de alto desempenho e CPUs de servidor.
+
+#### 1.2.5.7 Erros de Memória
+
+Erros de memória ocorrem quando os dados não são armazenados corretamente nos chips. O computador utiliza métodos diferentes para detectar e corrigir erros de dados na memória. Veja a seguir os métodos de verificação de erros:
+
+##### Não paridade
+
+A memória sem paridade não verifica erros na memória. A RAM sem paridade é a RAM mais comum usada em estações de trabalho domésticas e empresariais.
+
+##### Paridade
+
+A memória de paridade contém oito bits para dados e um bit para verificação de erros. O bit de verificação de erros é chamado de bit de paridade.
+
+##### ECC
+
+A memória com Código de Correção de Erros (ECC) pode detectar múltiplos erros de bit na memória e corrigir erros de um único bit. Em servidores usados para finanças ou análise de dados, módulos de memória ECC podem ser necessários.
+
+### 1.2.7 Placas Adaptadoras e Slots de Expansão
+
+#### 1.2.7.1 Placas Adaptadoras
+
+Placas adaptadoras aumentam a funcionalidade de um computador adicionando controladores para dispositivos específicos ou substituindo portas com defeito.
+
+Existem várias placas adaptadoras disponíveis que são usadas para expandir e personalizar a capacidade de um computador. Veja a seguir os tipos de placa adaptadora:
+
+##### Adaptador de Som
+
+Adaptadores de som fornecem capacidade de áudio.
+
+[IMAGEM]
+
+##### Placa de interface de Rede (NIC)
+
+Uma placa de rede conecta um computador a uma rede usando um cabo de rede.
+
+[IMAGEM]
+
+##### Cartão eSATA
+
+Adiciona portas SATA internas e externas adicionais a um computador através de um único slot PCI Express, usando um cabo de rede.
+
+[IMAGEM]
+
+##### Adaptador de vídeo
+
+Adaptador de vídeo fornece capacidade de vídeo.
+
+[IMAGEM]
+
+#### 1.2.7.2 Outras Placas Adaptadoras
+
+A seguir estão algumas outras placas adaptadoras.
+
+* NIC sem fio - Uma NIC sem fio conecta um computador a uma rede usando frequências de rádio.
+* Placa de captura - Placas de captura enviam um sinal de vídeo para um computador para que o sinal possa ser gravado em um disco de armazenamento com software de captura de vídeo.
+* Placa sintonizadora de TV - Essas permitem assistir e gravar sinais de televisão em um PC conectando uma televisão a cabo, satélite ou antena à placa sintonizadora instalada.
+* Placa controlada Universal Serial Bus (USB) – Fornece portas USB adicionais para conectar o computador a dispositivos periféricos.
+
+Vale ressaltar que algumas dessas placas adaptadoras podem ser integradas à placa-mãe.
+
+**Nota**: Computadores mais antigos também podem ter adaptador de modem, Accelerated Graphics Port (AGP), adaptador Small Computer System Interface (SCSI) e mais.
+
+#### 1.2.7.3 Espaços de Expansão
+
+Computadores têm slots de expansão na placa-mãe para instalar placas adaptadoras. O tipo de conector adaptador para cartão deve corresponder ao slot de expansão.
+
+##### PCI
+
+Peripheral Component Interconnect é um slot de expansão de 32 ou 64 bits. Atualmente, ele é encontrado em poucos computadores. Os slots de expansão PCI se tornaram em sua maioria obsoletos.
+
+[IMAGEm]
+
+##### Mini-PCI
+
+Esta é uma versão menor do PCI encontrada em alguns laptops. O Mini PCI tem três formatos diferentes; Tipo I, Tipo II e Tipo III.
+
+##### PCI-X
+
+PCI eXtended é uma versão atualizada do padrão PCI. Ele usa um barramento de 32 bits com largura de banda maior que o barramento PCI. O PCI-X pode operar até quatro vezes mais rápido que o PCI. Os slots de expansão PCI-X se tornaram praticamente obsoletos.
+
+##### PCIe
+
+PCI Express é uma interface paralela de 64 bits que é compatível com versões antigas de dispositivos PCI de 32 bits. PCIe é uma conexão serial ponto a ponto com uma interface física diferente, criada para substituir tanto o PCI quanto o PCI-X. Existem quatro tamanhos (comprimentos): PCI Express x1, PCI Express x4, PCI Express x8 e PCI Express x16. As conexões 'PCIe x4' têm quatro pistas de dados. As conexões 'PCIe x8' têm oito pistas de dados. As conexões 'PCIe x16' têm dezesseis pistas de dados.
+
+##### Riser Card
+
+Um cartão riser pode ser adicionado a um computador para fornecer slots de expansão adicionais para mais placas de expansão.
+
+##### AGP
+
+O Accelerated Graphics Port (AGP) era um slot de alta velocidade para conectar uma placa de vídeo AGP. O AGP foi substituído pelo PCI. Poucas placas-mãe ainda usam essa tecnologia hoje em dia.
+
+#### 1.2.7.4 Versões PCIe
+
+<table>
+    <thead>
+        <tr>
+            <th>Versão</th>
+            <th>GB/s para x1</th>
+            <th>GB/s para x8</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>2</td>
+            <td>.5</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>.985</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>1.969</td>
+            <td>31.508</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>3.938</td>
+            <td>63.015</td>
+        </tr>
+    </tbody>
+</table>
+
+**Nota**: GB/s é gigabytes por segundo.
+
+Cada versão do PCIe é compatível com todas as outras versões, por exemplo, se você tem uma placa-mãe que suporta a versão 4, ainda pode usar componentes PCIe da versão 3. A velocidade do barramento será determinada pelo componente de menor versão instalado.
+
+O PCIe pode fornecer até 25 watts de energia para cada slot. Para uma placa de vídeo, ela pode fornecer até 75 watts. Para placas de vídeo muito potentes, 75 watts adicionais podem ser fornecidos por um conector de energia PCIe da fonte de alimentação.
+
+###1.2.8 Discos rígidos e SSDs
+
+#### 1.2.8.1 Tipos de dispositivos de armazenamento
+
+##### Disco rígido (HD)
+
+[IMAGEM]
+
+##### Usidade de estado Sólido (SSD)
+
+[IMAGEM]
+
+##### Unidade Óptica
+
+[IMAGEM]
+
+##### Unidade de Fita
+
+[IMAGEM]
+
+#### 1.2.8.2 Interfaces de Dispositivos de Armazenamento
+
