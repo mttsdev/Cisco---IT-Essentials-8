@@ -1022,7 +1022,7 @@ Um dispositivo de saída pega informações binárias (uns e zeros) do computado
 
 Monitores e projetores são dispositivos de saída que criam sinais visuais e sonoros para o usuário. Headsets de Realidade Virtual (VR) são outro tipo de dispositivo de saída. Televisores também podem ser dispositivos de saída. Impressoras são dispositivos de saída visual que criam cópias físicas de arquivos de computador.
 
-1.2.13.2 Monitores e Projetores
+#### 1.2.13.2 Monitores e Projetores
 
 ##### Monitores
 
@@ -1080,3 +1080,15 @@ Alto-falantes são um tipo de dispositivo de saída de áudio. A maioria dos com
 Fones de ouvido, earbuds e os fones encontrados em headsets são todos dispositivos de saída auditiva. Eles podem ser com fio ou sem fio. Alguns têm conexão Wi-Fi ou Bluetooth.
 
 [IMAGEM]
+
+## 2. Montagem no PC
+
+### 2.0.1 Introdução
+
+Montar computadores costuma ser uma grande parte do trabalho de um técnico de TI. Você deve trabalhar de maneira lógica e metódica ao trabalhar com componentes de computador. Às vezes, você pode precisar determinar se um componente do computador de um cliente precisa ser atualizado ou substituído. É importante que você desenvolva habilidades em procedimentos de instalação, técnicas de solução de problemas e métodos de diagnóstico. Este capítulo discute a importância da compatibilidade dos componentes. Também cobre a necessidade de recursos adequados do sistema para operar eficientemente o hardware e o software do cliente. Computadores, componentes e periféricos de computador contêm riscos que podem causar ferimentos graves. Portanto, este capítulo começa com diretrizes gerais e de segurança contra incêndio a serem seguidas ao trabalhar com componentes de computador.
+
+Neste capítulo, você aprenderá sobre fontes de alimentação para PCs e as voltagens que elas fornecem para outros componentes do computador. Você vai aprender sobre os componentes instalados na placa-mãe; a CPU, RAM e várias placas adaptadoras. Você vai aprender sobre diferentes arquiteturas de CPU e como selecionar RAM compatível com a placa-mãe e o chipset. Você também aprenderá sobre vários tipos de drives de armazenamento e os fatores a serem considerados ao escolher o drive adequado.
+
+É importante não apenas aprender sobre montagem de componentes de computador, mas também desenvolver habilidades práticas. Neste capítulo, há vários laboratórios onde você montará um computador. Cada um dos laboratórios pede para você instalar progressivamente componentes como fonte de alimentação, CPU, RAM, drives, placas adaptadoras e cabos até que a montagem do computador esteja completa.
+
+### 2.1 Montar o Computador
