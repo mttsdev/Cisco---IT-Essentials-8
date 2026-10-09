@@ -891,3 +891,192 @@ Isso é usado para conectar um disco SATA a um cabo de energia Molex.
 Este conversor é usado para converter sinais VGA em sinais HDMI.
 
 [IMAGEM]
+
+### 1.2.11 Dispositivos de Entrada
+#### 1.2.11.1 Os Dispositivos de Entrada Originais
+
+Dispositivos de entrada permitem que o usuário se comunique com um computador. As imagens abaixo mostram alguns dos primeiros dispositivos de entrada.
+
+##### Teclado e mouse
+
+Estes são os dois dispositivos de entrada mais usados. Os teclados são normalmente usados para criar documentos de texto e e-mails. O mouse é usado para navegar na interface gráfica do usuário (GUI). Os laptops também têm touchpads para fornecer recursos de teclado e mouse integrados. O teclado foi o primeiro tipo de dispositivo de entrada.
+
+[IMAGEM]
+
+##### Digitalizador de imagem
+
+[IMAGEM]
+
+Esses dispositivos digitalizam uma imagem ou documento. Uma fotografia ou documento é colocado na superfície de vidro plana e a cabeça de digitalização se move embaixo do vidro. A digitalização da imagem é armazenada como um arquivo que pode ser exibido, impresso, enviado por e-mail ou alterado. Alguns desses scanners têm alimentadores automáticos de documentos (ADF) para suportar a entrada de várias páginas.
+
+##### Controle de videogame
+
+[IMAGEM]
+
+Estes são dispositivos de entrada para jogar games. Gamepads permitem que o jogador controle o movimento e a visão com pequenos sticks e vários botões. Muitos gamepads também têm gatilhos que registram a quantidade de pressão que o jogador aplica neles. Joysticks são frequentemente usados para jogar jogos estilo simulação de voo.
+
+##### KVM
+
+[IMAGEM]
+
+Um switch de teclado, vídeo e mouse (KVM) é um dispositivo de hardware que pode ser usado para controlar mais de um computador usando um único teclado, monitor e mouse. Para empresas, os switches KVM oferecem acesso econômico a múltiplos servidores. Usuários domésticos podem economizar espaço usando um switch KVM para conectar vários computadores a um teclado, monitor e mouse. Alguns switches KVM têm a capacidade de compartilhar dispositivos USB e alto-falantes com vários computadores.
+
+#### 1.2.11.2 Novos Dispositivos de Entrada
+
+Alguns novos dispositivos de entrada incluem tela sensível ao toque, caneta agulha, leitor de tira magnética e leitor de código de barras.
+
+##### Computador touchscreen
+
+O computador recebe instruções específicas do lugar na tela que o usuário toca.
+
+[IMAGEM]
+
+##### Caneta agulha
+
+Este dispositivo é um tipo de digitalizador que permite que um designer ou artista crie plantas, imagens ou outras obras de arte usando uma ferramenta parecida com uma caneta chamada stylus em uma superfície que percebe onde a ponta está tocando. Alguns digitalizadores têm mais de uma superfície, ou sensor, e permitem que o usuário crie modelos 3D realizando movimentos com o stylus no ar.
+
+[IMAGEM]
+
+##### máquina de pagamento
+
+Também chamado de leitor de tarja magnética, este dispositivo lê informações codificadas magneticamente na parte de trás de cartões plásticos, como crachás de identificação ou cartões de crédito. Também mostrado na parte superior do dispositivo está um leitor de chip. Para cartões com chip, o cartão é inserido no dispositivo e ele lê o chip. A leitura de chip oferece muito mais segurança para os dados do usuário, porque cada transação é um código único que não pode ser usado novamente.
+
+[IMAGEM]
+
+##### Scanner de preço
+
+Esse tipo de scanner, também chamado de scanner de preço, lê as informações contidas nos códigos de barras fixados na maioria dos produtos. Eles podem ser dispositivos portáteis e sem fio ou um aparelho fixo. A fonte de luz do leitor captura a imagem do código de barras e traduz a imagem em conteúdo legível pelo computador. Esse dispositivo é geralmente usado nos caixas das lojas ou para determinar os níveis de estoque.
+
+[IMAGEM]
+
+#### 1.2.11.3 Mais Novos Dispositivos de Entrada
+
+##### Câmera
+
+Esses dispositivos de entrada capturam imagens e vídeos que podem ser armazenados, exibidos, impressos ou alterados.
+
+[IMAGEM]
+
+##### Webcams
+
+Esses dispositivos são câmeras de vídeo que podem ser integradas a um computador ou podem ser externas. Eles são normalmente usados para videoconferência ou para transmitir vídeo ao vivo na internet.
+
+[IMAGEM]
+
+##### Capturador de assinatura
+
+Este é um dispositivo que captura eletronicamente a assinatura de uma pessoa. A pessoa usa uma caneta para assinar na tela. Como a assinatura eletrônica é legal, ela geralmente é usada para confirmar o recebimento de entregas ou para assinar acordos ou contratos.
+
+[IMAGEM]
+
+##### Autenticador de usuário
+
+Esses dispositivos de entrada são normalmente usados em um computador para autenticar o usuário. Um cartão inteligente pode ter o tamanho de um cartão de crédito com um circuito integrado embutido que normalmente fica sob um contato de ouro em um dos lados do cartão.
+
+[IMAGEM]
+
+##### Headsets
+
+Este dispositivo é um tipo de digitalizador que permite ao usuário falar em um computador e ter sua voz digitalizada. Voz, música ou sons podem ser armazenados no computador para serem reproduzidos, enviados ou enviados por e-mail. Este dispositivo também pode ser usado como entrada para jogos e softwares de comunicação.
+
+[IMAGEM]
+
+#### 1.2.11.4 Dispositivos de Entrada Mais Recentes
+
+Os dispositivos de entrada mais recentes incluem dispositivos e terminais NFC, scanners de reconhecimento facial, leitores de impressão digital, scanners de reconhecimento de voz e headsets de realidade virtual.
+
+##### NFC
+
+Dispositivos de pagamento por aproximação com NFC, como cartões de crédito ou smartphones, conseguem ler e escrever em um chip NFC. Isso permite que o terminal com NFC subtraia dinheiro do saldo do cartão. Dois dispositivos com NFC também podem transferir dados, como fotos, links ou contatos, entre si.
+
+[IMAGEM]
+
+##### Biometria facial
+
+Esses dispositivos de entrada biométrica identificam um usuário com base em suas características faciais únicas. Muitos laptops e a maioria dos smartphones têm scanners de reconhecimento facial para automatizar o login no dispositivo. Esses dispositivos são geralmente usados para fornecer acesso seguro a dispositivos ou locais.
+
+[IMAGEM]
+
+##### Biometria digital
+
+Esses dispositivos de entrada biométrica identificam um usuário com base em uma característica física única, como suas impressões digitais. Muitos laptops e dispositivos inteligentes têm leitores de impressão digital para automatizar o login no dispositivo. Esses dispositivos são normalmente usados para fornecer acesso seguro a dispositivos ou locais.
+
+[IMAGEM]
+
+##### Biometria por voz
+
+Esses dispositivos de entrada biométrica identificam um usuário com base na sua voz única. Esses dispositivos são frequentemente usados para fornecer acesso seguro a locais. O reconhecimento de voz também está sendo usado como entrada em aplicativos de assistente pessoal, como o Siri da Apple e a Alexa da Amazon.
+
+[IMAGEM]
+
+##### Óculos de realidade virtual
+
+Esses dispositivos são normalmente usados com jogos de computador, simuladores e aplicativos de treinamento. Eles são dispositivos montados na cabeça que fornecem imagens separadas para cada olho. A maioria dos headsets inclui sensores de rastreamento de movimento da cabeça e dos olhos. Esses dispositivos também são dispositivos de saída, entregando vídeo e áudio para quem os usa.
+
+[IMAGEM]
+
+### 1.2.13 Dispositivos de Saída
+#### 1.2.13.1 O que são Dispositivos de Saída?
+
+Um dispositivo de saída pega informações binárias (uns e zeros) do computador e as converte em uma forma facilmente compreendida pelo usuário.
+
+Monitores e projetores são dispositivos de saída que criam sinais visuais e sonoros para o usuário. Headsets de Realidade Virtual (VR) são outro tipo de dispositivo de saída. Televisores também podem ser dispositivos de saída. Impressoras são dispositivos de saída visual que criam cópias físicas de arquivos de computador.
+
+1.2.13.2 Monitores e Projetores
+
+##### Monitores
+
+A maioria dos monitores usa um dos três tipos de tecnologia: LCD, LED ou OLED. 
+O monitor de cristal líquido (LCD) tem dois filtros polarizadores com uma solução de cristal líquido entre eles. Uma corrente elétrica alinha os cristais para que a luz possa passar ou não, criando a imagem. 
+O diodo emissor de luz (LED) é um display LCD que usa retroiluminação LED. O LED consome menos energia que a retroiluminação LCD padrão. O painel é mais fino, leve, brilhante e tem melhor contraste que o LCD. 
+O LED orgânico (OLED) é um tipo de display LED que usa uma camada de material orgânico que responde a estímulo elétrico para emitir luz. Cada pixel acende individualmente, resultando em níveis de preto muito mais profundos que o LED.
+
+[IMAGEM]
+
+##### Projetores
+
+A maioria dos projetores de vídeo usa tecnologia LCD ou DLP. DLP significa Processamento Digital de Luz. O DLP utiliza uma roda de cores giratória com uma matriz de espelhos. Cada espelho corresponde a um pixel e reflete a luz em direção ou fora da ótica do projetor, criando uma imagem de até 1024 tons de cinza. A roda de cores então adiciona os dados de cor para completar a imagem projetada.
+
+Projetores diferentes têm quantidades diferentes de lúmens, o que afeta o nível de brilho da imagem projetada. Projetores LCD geralmente têm mais lúmens (são mais brilhantes) do que projetores DLP. A ANSI tem um procedimento padronizado para testar projetores. Projetores testados com esse procedimento são citados em "lúmens ANSI". Projetores podem ser facilmente comparados com base em suas especificações de brilho.
+
+O brilho (saída de luz branca) mede a quantidade total de luz projetada em lúmens. A especificação de brilho de cor mede o vermelho, verde e azul usando o mesmo método usado para medir o brilho.
+
+[IMAGEM]
+
+#### 1.2.13.3 Headsets VR e AR
+
+A Realidade Virtual (VR) utiliza tecnologia computacional para criar um ambiente simulado e tridimensional. O usuário se sente imerso nesse 'mundo virtual' e o manipula. Um headset de VR envolve completamente a parte superior do rosto dos usuários, sem permitir a entrada de luz ambiente ao redor. A maioria das experiências de VR tem imagens tridimensionais que parecem em tamanho real para o usuário. As experiências de VR também acompanham os movimentos do usuário e ajustam as imagens na tela do usuário de acordo.
+
+A Realidade Aumentada (AR) utiliza tecnologia semelhante, mas sobrepõe imagens e áudio ao mundo real em tempo real. A RA pode fornecer aos usuários acesso imediato a informações sobre o ambiente real ao seu redor. Um headset de AR geralmente não desliga a luz ambiente para os usuários, permitindo que eles vejam o ambiente ao redor da vida real. Nem todo AR exige headset. Alguns AR podem simplesmente ser baixados para um smartphone. Pokémon GO é uma versão inicial de um jogo de AR que usa o smartphone do jogador para 'ver e capturar' objetos virtuais no mundo real. Outros dispositivos de AR são óculos inteligentes. Eles pesam muito menos que os headsets e geralmente são projetados para um público específico, como ciclistas.
+
+##### VR Headset
+
+Headsets de VR podem ter plataformas de hardware e software específicas. Eles podem estar conectados a um controle, serem independentes ou móveis. Podem ter vários tipos de sensores, incluindo movimento, posicionamento visual externo, câmeras, rastreamento de movimento, acelerômetro, giroscópio e magnetômetro. A resolução e as taxas de atualização variam.
+
+[IMAGEM]
+
+##### AR Headset
+
+Os headsets de AR e os óculos inteligentes vêm com uma grande variedade de recursos. A maioria tem câmera, sensores de movimento, GPS, CPU, bateria e um controle. Muitos também têm armazenamento, Bluetooth, alto-falantes e controle por voz. O Microsoft Hololens é um headset com uma unidade de processamento holográfico integrada.
+
+[IMAGEM]
+
+#### 1.2.13.4 Impressoras
+
+Impressoras são dispositivos de saída que criam cópias físicas de arquivos. Uma cópia impressa pode ser uma folha de papel. Também pode ser uma forma plástica criada a partir de uma impressora 3D.
+
+As impressoras atuais podem ser com fio, sem fio ou ambas. Eles usam diferentes tecnologias para criar a imagem que você vê. Todas as impressoras exigem material de impressão (como tinta, toner, plástico líquido, etc.) e um método para posicioná-lo com precisão no papel ou extrudê-lo na forma desejada. Todas as impressoras possuem hardware que precisa ser mantido. A maioria das impressoras também possui software, na forma de drivers que precisam ser mantidos atualizados.
+
+1.2.13.5 Alto-falantes e fones de ouvido
+
+#### Alto-falantes
+
+Alto-falantes são um tipo de dispositivo de saída de áudio. A maioria dos computadores e dispositivos móveis tem suporte de áudio integrado na placa-mãe ou em uma placa adaptadora. O suporte de áudio inclui portas que permitem a entrada e saída de sinais de áudio. A placa de áudio tem um amplificador para alimentar fones de ouvido e alto-falantes externos.
+
+[IMAGEM]
+
+##### Fones de ouvido
+
+Fones de ouvido, earbuds e os fones encontrados em headsets são todos dispositivos de saída auditiva. Eles podem ser com fio ou sem fio. Alguns têm conexão Wi-Fi ou Bluetooth.
+
+[IMAGEM]
